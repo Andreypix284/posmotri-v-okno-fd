@@ -54,7 +54,7 @@ ol {
 .content {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 27px;
   margin: 0 auto;
 }
 
@@ -299,5 +299,3 @@ input[type="text"] {
   padding-left: 3px;
   padding-right: 3px;
 }
-
-/*сделал коментарий потому что нужно было еще раз сделать push*/
