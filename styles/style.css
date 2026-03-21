@@ -62,13 +62,14 @@ ol {
 .result {
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 22px;
+  margin-bottom: 2px;
 }
 
 .result__video-container {
   position: relative;
-  width: 711px;
-  height: 386px;
+  width: 709px;
+  height: 384px;
 }
 
 .result__video {
@@ -135,7 +136,7 @@ ol {
 .search-form__textfield {
   font-family: "Fira Sans Condensed", sans-serif;
   font-weight: 400;
-  width: 224px;
+  width: 223px;
   letter-spacing: 0.5px;
   appearance: none;
   font-size: 18px;
@@ -147,7 +148,7 @@ ol {
 }
 
 .search-form__textfield:focus {
-  outline: none; 
+  outline: none;
 }
 
 .search-form__textfield::placeholder {
@@ -219,7 +220,7 @@ ol {
   line-height: 94%;
   text-transform: uppercase;
   color: #fff;
-  padding-bottom: 22px;
+  padding-bottom: 25px;
 }
 
 .content__accent {
