@@ -103,10 +103,10 @@ ol {
 
 .search-form__label {
   display: flex;
+  align-items: center;
   width: fit-content;
   gap: 5px;
 }
-
 
 .search-form__label:hover .search-form__label-text {
   cursor: pointer;
@@ -197,6 +197,10 @@ ol {
   width: 194px;
 }
 
+.more-button {
+  min-width: 100%;
+}
+
 .button:active {
   background-color: #545050;
 }
@@ -235,7 +239,6 @@ ol {
   width: 399px;
   height: 298px;
   overflow: auto;
-  overflow-x: hidden;
 }
 
 .content__list {
@@ -282,7 +285,7 @@ ol {
   -webkit-box-orient: vertical;
   overflow: hidden;
   line-height: 24.2px;
-  max-width: 196px;
+  max-width: 195px;
 }
 
 .content__video-card-thumbnail {
@@ -318,4 +321,3 @@ input[type="text"] {
 .content__card-link_current:focus-visible {
   outline: 1px solid #fff;
 }
-
